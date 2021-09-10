@@ -54,6 +54,7 @@ int main()
 		printf("\n");
     }
   }
- 
+  
+  free(matrices);
   return 0;
 }
