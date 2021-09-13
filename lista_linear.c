@@ -37,8 +37,6 @@ int buscaSequencial(LISTA* l, u_int ch) {
 bool inserirElemento(LISTA* l, REGISTRO reg, int i) {
     int j; 
     
-
-
     if((l->NElemento == MAX) || (i < 0) || (i > l->NElemento)) return false;
         
     for(j = l->NElemento; j > i; j--) l->A[j] = l->A[j - 1];
