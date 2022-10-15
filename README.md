@@ -1,2 +1,2 @@
 # Math-implementations
-C implementations to resolve math problems    
+C code to solve some math problems    
