@@ -51,7 +51,7 @@ int size(LISTA* l) {
     return l->NElemento;
 }
 
-bool ExcluirElemento(u_int ch, LISTA* l) {
+bool excluirElemento(u_int ch, LISTA* l) {
     int pos, j;
     pos = buscaSequencial(l, ch);
 
