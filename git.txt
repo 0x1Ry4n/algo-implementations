@@ -1,3 +1,6 @@
+git add <file> -- adicionar o arquivo no stage
+git commit -m -- "Comitar a mudança"
+git push -- dar um push para o repo 
 git reset HEAD <file> -- desfazer a última alteração no stage (transferir para o ambiente local)
 git reset HEAD^ -- desfazer o último commit apontado na default branch 
 git reset HEAD~x -- desfazer certa quantidade de commits na default branch 
@@ -5,4 +8,11 @@ git restore --stage <file>  -- desfazer/tirar o último commit/arquivo do stage
 git restore <file> -- recuperar algum arquivo para o worktree
 git restore --worktree <file> -- desfazer a última alteração no worktree 
 git commit --amend -- refazer o último commit
-git checkout <hash> 
+git checkout <hash> -- acessar um commit em forma de playground
+git branch <branch> -- criar uma branch
+git branch -m <old_name> <new_name> -- renomear uma branch
+git branch -D <branch> -- deletar uma branch localmente
+git push origin --delete <branch> -- deletar uma branch remota
+git checkout -b <new_branch> -- criar uma branch e entrar nela 
+git checkout <branch> -- trocar de branch
+git merge <branch> -- juntar a branch a main
