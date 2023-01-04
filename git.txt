@@ -1,0 +1,8 @@
+git reset HEAD <file> -- desfazer a última alteração no stage (transferir para o ambiente local)
+git reset HEAD^ -- desfazer o último commit apontado na default branch 
+git reset HEAD~x -- desfazer certa quantidade de commits na default branch 
+git restore --stage <file>  -- desfazer/tirar o último commit/arquivo do stage
+git restore <file> -- recuperar algum arquivo para o worktree
+git restore --worktree <file> -- desfazer a última alteração no worktree 
+git commit --amend -- refazer o último commit
+git checkout <hash> 
